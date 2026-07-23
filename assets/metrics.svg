@@ -1,32 +1,70 @@
-<svg width="820" height="180" viewBox="0 0 820 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Metrics — reyhansaeed">
+<svg width="860" height="280" viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Metrics">
   <defs>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0D1117"/>
       <stop offset="100%" stop-color="#161B22"/>
     </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00FFAA"/>
+      <stop offset="100%" stop-color="#00C48A"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00FFAA" flood-opacity="0.12"/>
+    </filter>
   </defs>
 
-  <rect width="820" height="180" rx="14" fill="url(#cardBg)" stroke="#30363D" stroke-width="1"/>
+  <!-- card -->
+  <rect width="860" height="280" rx="16" fill="url(#bg)" stroke="#30363D"/>
 
-  <!-- name -->
-  <text x="28" y="40" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">reyhansaeed</text>
-  <text x="28" y="65" fill="#00FFAA" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700">shipping since 2024</text>
+  <!-- left accent -->
+  <rect x="0" y="0" width="4" height="280" rx="2" fill="#00FFAA"/>
 
-  <!-- stats row -->
-  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-    <text x="28" y="105" fill="#8B949E" font-size="12">repos</text>
-    <text x="28" y="135" fill="#C9D1D9" font-size="30" font-weight="700">4</text>
+  <!-- header -->
+  <text x="28" y="36" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">github metrics · reyhansaeed</text>
+  <text x="28" y="66" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="700">builder · security · web3 · ai</text>
+  <text x="28" y="90" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">shipping since may 2024</text>
 
-    <text x="150" y="105" fill="#8B949E" font-size="12">stars</text>
-    <text x="150" y="135" fill="#C9D1D9" font-size="30" font-weight="700">9</text>
+  <!-- divider -->
+  <line x1="28" y1="108" x2="832" y2="108" stroke="#21262D"/>
 
-    <text x="290" y="105" fill="#8B949E" font-size="12">commits</text>
-    <text x="290" y="135" fill="#C9D1D9" font-size="30" font-weight="700">5k+</text>
+  <!-- stats grid -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <!-- box 1 -->
+    <rect x="28" y="128" width="190" height="88" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="46" y="154" fill="#8B949E" font-size="11">COMMITS</text>
+    <text x="46" y="188" fill="#00FFAA" font-size="28" font-weight="700">6.1k+</text>
 
-    <text x="440" y="105" fill="#8B949E" font-size="12">focus</text>
-    <text x="440" y="135" fill="#00FFAA" font-size="18" font-weight="700">security · web3 · ai</text>
+    <!-- box 2 -->
+    <rect x="232" y="128" width="190" height="88" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="250" y="154" fill="#8B949E" font-size="11">STARS</text>
+    <text x="250" y="188" fill="#00FFAA" font-size="28" font-weight="700">9</text>
+
+    <!-- box 3 -->
+    <rect x="436" y="128" width="190" height="88" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="454" y="154" fill="#8B949E" font-size="11">REPOS</text>
+    <text x="454" y="188" fill="#00FFAA" font-size="28" font-weight="700">3</text>
+
+    <!-- box 4 -->
+    <rect x="640" y="128" width="192" height="88" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="658" y="154" fill="#8B949E" font-size="11">PRIMARY</text>
+    <text x="658" y="188" fill="#C9D1D9" font-size="20" font-weight="700">Python</text>
   </g>
 
-  <!-- accent line at bottom -->
-  <rect x="28" y="172" width="764" height="3" rx="1.5" fill="#00FFAA" opacity="0.8"/>
+  <!-- skill bars -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+    <text x="28" y="244" fill="#8B949E">security</text>
+    <rect x="100" y="234" width="180" height="8" rx="4" fill="#21262D"/>
+    <rect x="100" y="234" width="160" height="8" rx="4" fill="url(#bar)"/>
+
+    <text x="300" y="244" fill="#8B949E">web3</text>
+    <rect x="350" y="234" width="180" height="8" rx="4" fill="#21262D"/>
+    <rect x="350" y="234" width="150" height="8" rx="4" fill="url(#bar)"/>
+
+    <text x="550" y="244" fill="#8B949E">automation</text>
+    <rect x="640" y="234" width="180" height="8" rx="4" fill="#21262D"/>
+    <rect x="640" y="234" width="145" height="8" rx="4" fill="url(#bar)"/>
+  </g>
+
+  <!-- footer -->
+  <text x="28" y="268" fill="#6E7681" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">updated 2026-07-23 · public profile metrics</text>
 </svg>
