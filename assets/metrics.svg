@@ -1,0 +1,32 @@
+<svg width="820" height="180" viewBox="0 0 820 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Metrics — reyhansaeed">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#161B22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="820" height="180" rx="14" fill="url(#cardBg)" stroke="#30363D" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="28" y="40" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">reyhansaeed</text>
+  <text x="28" y="65" fill="#00FFAA" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700">shipping since 2024</text>
+
+  <!-- stats row -->
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+    <text x="28" y="105" fill="#8B949E" font-size="12">repos</text>
+    <text x="28" y="135" fill="#C9D1D9" font-size="30" font-weight="700">4</text>
+
+    <text x="150" y="105" fill="#8B949E" font-size="12">stars</text>
+    <text x="150" y="135" fill="#C9D1D9" font-size="30" font-weight="700">9</text>
+
+    <text x="290" y="105" fill="#8B949E" font-size="12">commits</text>
+    <text x="290" y="135" fill="#C9D1D9" font-size="30" font-weight="700">5k+</text>
+
+    <text x="440" y="105" fill="#8B949E" font-size="12">focus</text>
+    <text x="440" y="135" fill="#00FFAA" font-size="18" font-weight="700">security · web3 · ai</text>
+  </g>
+
+  <!-- accent line at bottom -->
+  <rect x="28" y="172" width="764" height="3" rx="1.5" fill="#00FFAA" opacity="0.8"/>
+</svg>
