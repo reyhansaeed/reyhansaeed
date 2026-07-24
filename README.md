@@ -107,7 +107,7 @@ Self-hosted LLM proxy stacks
 <td width="100%" align="left">
 
 **[chain-balance](https://github.com/reyhansaeed/chain-balance)**  
-Multi-chain wallet balance checker — EVM, Solana, Bitcoin. CLI + API.  
+Multi-chain native balance checker — EVM + Solana. Pure Python CLI.  
 `★ 9` · `Python`
 
 </td>
